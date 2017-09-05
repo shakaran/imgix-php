@@ -127,4 +127,3 @@ class UrlBuilderTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals("https://demos.imgix.net/https%3A%2F%2Fmy-demo-site.com%2Ffiles%2F133467012%2Favatar+icon.png%3Fsome%3Dchill%26params%3D1?ixlib=php-" . $version, $url);
     }
   }
-?>
