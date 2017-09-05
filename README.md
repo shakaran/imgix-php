@@ -23,7 +23,13 @@ Just copy the files to your project, and include the `src/autoload.php` file. We
 
 ### Using Composer
 
-Define the following requirement in your `composer.json` file:
+Install through composer with:
+
+```bash
+composer require imgix/imgix-php
+```
+
+Or just define the following requirement in your `composer.json` file:
 
 ```json
 {
