@@ -75,8 +75,6 @@ class UrlHelper {
     }
 
     private static function joinURL($parts) {
-        $url = $parts['scheme'] . '://' . $parts['host'] . $parts['path'] . $parts['query'];
-
-        return $url;
+        return $parts['scheme'] . '://' . $parts['host'] . $parts['path'] . $parts['query'];
     }
 }
